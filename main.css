@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    /*background: #230e4a;*/
+    background: linear-gradient(to bottom right, #230e4a, black);
+}
+
+#particles-js {
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#vick {
+    align-self: center;
+    background: white;
+    width: 300px;
+    vertical-align: center;
+    horiz-align: center;
+    height: 350px;
+    cursor: ew-resize;
+    position: absolute;
+    border-radius: 15px;
+    elevation: 30deg;
+}
+
+.division {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+#vicktext {
+    font-size: 35px;
+    text-decoration-width: 1px;
+    text-decoration-color: #d9f3ff;
+    color: #00857d;
+}
+
+h3 {
+    font-family: morenabold, serif;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.jstext {
+    background: darkorange;
+    border-radius: 3px;
+}
+
+.Jtext {
+    font-family: Consolas, serif;
+    font-size: 30px;
+}
+
+.stext {
+    font-family: Consolas, serif;
+    font-size: 20px;
+}
+/*
+#hellobutton {
+    border: 0;
+    background:white;
+    elevation: 20deg;
+    width: 60px;
+    height: 60px;
+    box-shadow: #989898 0 0 20px;
+    border-radius: 50px;
+    color: white;
+    font-family: morenabold, serif;
+    font-size: 18px;
+    justify-content: right;
+}
+
+#hellobutton:hover {
+    background: darkmagenta;
+}
+*/
